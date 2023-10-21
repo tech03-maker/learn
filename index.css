@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: rgb(48, 196, 48);
+}
+
+.navbar-toggler i{
+    color: rgb(48, 196, 48);
+}
+
+.mother{
+    background-color: rgb(5, 61, 5);
+}
+
+.hero{
+    padding-top: 7rem;
+}
+
+.hero-left h3{
+    font-weight: bold;
+    color: rgb(48, 196, 48);
+    font-size: 2.5rem;
+    /* margin-top: 9rem; */
+}
+
+.hero-left p{
+    color: rgb(48, 196, 48);
+    letter-spacing: 3px;
+}
+
+.hero-right img{
+    /* width: 130%; */
+}
