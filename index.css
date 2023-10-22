@@ -108,7 +108,7 @@
 } */
 
 .offcanvas-title{
-    background-color: rgb(5, 61, 5);
+    /* background-color: rgb(5, 61, 5); */
     color: rgb(48, 196, 48);
     padding: 10px;
     border-left: 3px solid rgb(48, 196, 48);
@@ -116,4 +116,40 @@
 
 .nav-item .nav-link i {
     color: rgb(53, 49, 49);
+}
+
+.ceo_div .ceo_name{
+    color: rgb(48, 196, 48);
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+
+.ceo_right{
+    color: rgb(48, 196, 48);
+    font-size: 20px;
+    padding-top:5rem;
+    font-size: 500;
+}
+
+.ceo_tag{
+    background-color: rgb(48, 196, 48);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(5, 61, 5);
+}
+
+.founder{
+    background-color: rgb(48, 196, 48);
+    color: rgb(5, 61, 5);
+    padding: 2px;
+    font-size: 1.2rem;
+    width: 50%;
+    text-align: center;
+}
+
+.founder p {
+    /* padding-top: 9px; */
+    position: relative;
+    top: 5px;
 }
