@@ -73,3 +73,47 @@
 .sub_section i{
     font-size: 23px;
 }
+
+.nav-item{
+    /* background-color: rgb(48, 196, 48); */
+    margin-top: 5px;
+    padding-left: 7px;
+}
+
+/* .nav-item .nav-link ::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+.nav-item .nav-link ::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.nav-item .nav-link:hover::before{
+    width: 100;
+} */
+
+.offcanvas-title{
+    background-color: rgb(5, 61, 5);
+    color: rgb(48, 196, 48);
+    padding: 10px;
+    border-left: 3px solid rgb(48, 196, 48);
+}
+
+.nav-item .nav-link i {
+    color: rgb(53, 49, 49);
+}
