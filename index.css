@@ -65,8 +65,8 @@
 }
 
 .sub_section h4{
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: bold;
     padding-top: 1rem;
 }
 
@@ -152,4 +152,66 @@
     /* padding-top: 9px; */
     position: relative;
     top: 5px;
+}
+
+.search{
+    background-color: rgba(3, 68, 94, 0.897);
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 100%;
+    border: 15px solid rgb(20, 143, 192);
+    color: white;
+}
+.calender{
+    background-color: rgb(0, 85, 0);
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 100%;
+    border: 15px solid rgba(48, 196, 48, 0.384);
+    color: white;
+}
+.certificate{
+    background-color: orangered;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 100%;
+    border: 15px solid rgba(196, 71, 25, 0.719);
+    color: white;
+}
+
+.sec1{
+    border-radius: 10px;
+}
+
+.sec1:hover{
+    border-top: 3px solid rgb(5, 61, 5);
+
+}
+
+.sec1 h4{
+    font-weight: bold;
+}
+
+.sec1 p{
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    padding: 2.5rem;
+}
+
+.sec1 button{
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s;
+    padding: 2rem;
+    font-size: 17px;
+}
+
+.sec1 button:hover{
+    text-decoration: underline;
+    transform: translateY(2px);
+}
+
+.sec1 .arrow{
+    padding-left: 3px;
+    font-size: 15px;
 }
