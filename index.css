@@ -218,10 +218,6 @@ body {
   font-size: 15px;
 }
 
-.contact {
-  /* background-color: aliceblue; */
-}
-
 .left-contact h3 {
   font-weight: bold;
 }
@@ -235,6 +231,7 @@ body {
   text-align: center;
   padding: 3rem;
   border-radius: 10px;
+  border-top: 2px solid rgb(0, 85, 0);
 }
 
 .right-contact input {
@@ -261,4 +258,42 @@ body {
   border: none;
   background-color: rgb(0, 85, 0);
   color: white;
+}
+
+.how_it_works{
+    background-color: rgb(0, 85, 0);
+    padding: 5px;
+}
+
+.one_four{
+    border-top: 1px solid rgb(48, 196, 48);
+    border-right: 1px solid rgb(48, 196, 48);
+}
+
+.how_it_works h3{
+    color: rgb(48, 196, 48);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.how_it_works span{
+    color: rgb(48, 196, 48);
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.how_it_works i{
+    background-color: rgb(48, 196, 48);
+    padding: 11px;
+    color: rgb(0, 85, 0);
+}
+
+.how_it_works big{
+    color: rgb(48, 196, 48);
+    font-weight: 500;
+}
+
+.how_it_works p{
+    font-size: 13px;
+    color: rgb(48, 196, 48);
 }
