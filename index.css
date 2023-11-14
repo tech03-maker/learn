@@ -217,20 +217,33 @@ body {
   padding-left: 3px;
   font-size: 15px;
 }
+.contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)50%, rgba(0, 0, 0, 0.7)50%), url(assets/images/istockphoto-1224309929-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .left-contact h3 {
   font-weight: bold;
+  color: white;
 }
 
 .left-contact span {
   border-bottom: 2px solid rgb(0, 85, 0);
+  color: white;
+}
+
+.left-contact p{
+    color: white !important;
 }
 
 .right-contact form {
   background-color: white;
   text-align: center;
   padding: 3rem;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border-top: 2px solid rgb(0, 85, 0);
 }
 
