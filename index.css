@@ -279,7 +279,7 @@ body {
 .how_it_works span{
     color: rgb(48, 196, 48);
     font-size: 15px;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 .how_it_works i{
