@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+body {
+  background-color: aliceblue !important;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,77 +10,77 @@
   font-family: "Poppins", sans-serif;
 }
 
-.navbar-brand{
-    font-weight: bold;
-    color: rgb(48, 196, 48);
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(48, 196, 48);
 }
 
-.navbar-toggler i{
-    color: rgb(48, 196, 48);
+.navbar-toggler i {
+  color: rgb(48, 196, 48);
 }
 
-.mother{
-    background-color: rgb(5, 61, 5);
+.mother {
+  background-color: rgb(5, 61, 5);
 }
 
-.hero{
-    padding-top: 7rem;
+.hero {
+  padding-top: 7rem;
 }
 
-.hero-left h3{
-    font-weight: bold;
-    color: rgb(48, 196, 48);
-    font-size: 3rem;
-    /* margin-top: 9rem; */
+.hero-left h3 {
+  font-weight: bold;
+  color: rgb(48, 196, 48);
+  font-size: 3rem;
+  /* margin-top: 9rem; */
 }
 
-.hero-left p{
-    color: rgb(48, 196, 48);
-    /* letter-spacing: 3px; */
+.hero-left p {
+  color: rgb(48, 196, 48);
+  /* letter-spacing: 3px; */
 }
 
-.ctn{
-    background-color: rgb(48, 196, 48);
-    padding: 19px;
-    border: none;
-    color: rgb(5, 61, 5);
-    transition: ease-in 0.3s;
+.ctn {
+  background-color: rgb(48, 196, 48);
+  padding: 19px;
+  border: none;
+  color: rgb(5, 61, 5);
+  transition: ease-in 0.3s;
 }
 
-.ctn:hover{
-    font-weight: bold;
+.ctn:hover {
+  font-weight: bold;
 }
 
-.hero-right img{
-    /* width: 130%; */
-    height: 100%;
+.hero-right img {
+  /* width: 130%; */
+  height: 100%;
 }
 
-.section2{
-    background-color: aliceblue;
-    padding: 2rem;
-    text-align: center;
-    justify-content: center;
+.section2 {
+  background-color: aliceblue;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
 }
 
-.sub_section{
-    border-right: 1px solid rgb(5, 61, 5);
+.sub_section {
+  border-right: 1px solid rgb(5, 61, 5);
 }
 
-.sub_section h4{
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-top: 1rem;
+.sub_section h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 1rem;
 }
 
-.sub_section i{
-    font-size: 23px;
+.sub_section i {
+  font-size: 23px;
 }
 
-.nav-item{
-    /* background-color: rgb(48, 196, 48); */
-    margin-top: 5px;
-    padding-left: 7px;
+.nav-item {
+  /* background-color: rgb(48, 196, 48); */
+  margin-top: 5px;
+  padding-left: 7px;
 }
 
 /* .nav-item .nav-link ::before{
@@ -107,111 +110,155 @@
     width: 100;
 } */
 
-.offcanvas-title{
-    /* background-color: rgb(5, 61, 5); */
-    color: rgb(48, 196, 48);
-    padding: 10px;
-    border-left: 3px solid rgb(48, 196, 48);
+.offcanvas-title {
+  /* background-color: rgb(5, 61, 5); */
+  color: rgb(48, 196, 48);
+  padding: 10px;
+  border-left: 3px solid rgb(48, 196, 48);
 }
 
 .nav-item .nav-link i {
-    color: rgb(53, 49, 49);
+  color: rgb(53, 49, 49);
 }
 
-.ceo_div .ceo_name{
-    color: rgb(48, 196, 48);
-    font-size: 3rem;
-    font-weight: bold;
-    padding-top: 5rem;
+.ceo_div .ceo_name {
+  color: rgb(48, 196, 48);
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 5rem;
 }
 
-.ceo_right{
-    color: rgb(48, 196, 48);
-    font-size: 20px;
-    padding-top:5rem;
-    font-size: 500;
+.ceo_right {
+  color: rgb(48, 196, 48);
+  font-size: 20px;
+  padding-top: 5rem;
+  font-size: 500;
 }
 
-.ceo_tag{
-    background-color: rgb(48, 196, 48);
-    padding: 10px;
-    font-size: 20px;
-    color: rgb(5, 61, 5);
+.ceo_tag {
+  background-color: rgb(48, 196, 48);
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(5, 61, 5);
 }
 
-.founder{
-    background-color: rgb(48, 196, 48);
-    color: rgb(5, 61, 5);
-    padding: 2px;
-    font-size: 1rem;
-    width: 50%;
-    text-align: center;
+.founder {
+  background-color: rgb(48, 196, 48);
+  color: rgb(5, 61, 5);
+  padding: 2px;
+  font-size: 1rem;
+  width: 50%;
+  text-align: center;
 }
 
 .founder p {
-    /* padding-top: 9px; */
-    position: relative;
-    top: 5px;
+  /* padding-top: 9px; */
+  position: relative;
+  top: 5px;
 }
 
-.search{
-    background-color: rgba(3, 68, 94, 0.897);
-    padding: 20px;
-    font-size: 25px;
-    border-radius: 100%;
-    border: 15px solid rgb(20, 143, 192);
-    color: white;
+.search {
+  background-color: rgba(3, 68, 94, 0.897);
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100%;
+  border: 15px solid rgb(20, 143, 192);
+  color: white;
 }
-.calender{
-    background-color: rgb(0, 85, 0);
-    padding: 20px;
-    font-size: 25px;
-    border-radius: 100%;
-    border: 15px solid rgba(48, 196, 48, 0.384);
-    color: white;
+.calender {
+  background-color: rgb(0, 85, 0);
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100%;
+  border: 15px solid rgba(48, 196, 48, 0.384);
+  color: white;
 }
-.certificate{
-    background-color: orangered;
-    padding: 20px;
-    font-size: 25px;
-    border-radius: 100%;
-    border: 15px solid rgba(196, 71, 25, 0.719);
-    color: white;
-}
-
-.sec1{
-    border-radius: 10px;
+.certificate {
+  background-color: orangered;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100%;
+  border: 15px solid rgba(196, 71, 25, 0.719);
+  color: white;
 }
 
-.sec1:hover{
-    border-top: 3px solid rgb(5, 61, 5);
-
+.sec1 {
+  border-radius: 10px;
 }
 
-.sec1 h4{
-    font-weight: bold;
+.sec1:hover {
+  border-top: 3px solid rgb(5, 61, 5);
 }
 
-.sec1 p{
-    font-size: 15px;
-    color: rgb(65, 65, 65);
-    padding: 2.5rem;
+.sec1 h4 {
+  font-weight: bold;
 }
 
-.sec1 button{
-    background-color: transparent;
-    border: none;
-    transition: all 0.3s;
-    padding: 2rem;
-    font-size: 17px;
+.sec1 p {
+  font-size: 15px;
+  color: rgb(65, 65, 65);
+  padding: 2.5rem;
 }
 
-.sec1 button:hover{
-    text-decoration: underline;
-    transform: translateY(2px);
+.sec1 button {
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s;
+  padding: 2rem;
+  font-size: 17px;
 }
 
-.sec1 .arrow{
-    padding-left: 3px;
-    font-size: 15px;
+.sec1 button:hover {
+  text-decoration: underline;
+  transform: translateY(2px);
+}
+
+.sec1 .arrow {
+  padding-left: 3px;
+  font-size: 15px;
+}
+
+.contact {
+  /* background-color: aliceblue; */
+}
+
+.left-contact h3 {
+  font-weight: bold;
+}
+
+.left-contact span {
+  border-bottom: 2px solid rgb(0, 85, 0);
+}
+
+.right-contact form {
+  background-color: white;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.right-contact input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 1rem;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  margin-top: 15px;
+}
+
+.right-contact textarea {
+  border: 1px solid grey;
+  outline: none;
+  font-size: 15px;
+}
+
+.right-contact button {
+  padding: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(0, 85, 0);
+  color: white;
 }
